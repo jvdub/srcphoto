@@ -1,0 +1,12 @@
+{
+	"name": "srcphoto",
+	"description": "Stephanie Crabtree Photography",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"bootstrap": "latest"
+	},
+	"resolutions": {
+		"jquery": "~2.x"
+	}
+}

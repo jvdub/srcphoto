@@ -1,0 +1,25 @@
+{
+	"name": "srcphoto",
+	"private": true,
+	"version": "0.0.0",
+	"description": "Stephanie Crabtree Photography",
+	"repository": {
+		"type": "git",
+		"urL": "https://github.com/jvdub/srcphoto.git"
+	},
+	"license:": "Apache 2.0",
+	"dependencies": {
+		"bower": "^1.3.4",
+		"express": "~4.4.1",
+		"ejs": "1.0.0",
+		"connect": "2.19.4",
+		"connect-timeout": "1.1.0",
+		"connect-busboy": "0.0.1",
+		"method-override": "2.0.2",
+		"errorhandler": "1.0.2"
+	},
+	"scripts": {
+		"prestart": "npm install",
+		"start": "hotnode app.js"
+	}
+}
