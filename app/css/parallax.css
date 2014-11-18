@@ -77,36 +77,36 @@
   /* style the groups
   --------------------------------------------- */
 
-  #group1 {
+  #home {
     z-index: 3; /* slide under groups 1 and 3 */
   }
-  #group1 .parallax-layer-back {
+  #home .parallax-layer-back {
     background-image: url('../img/backgrounds/test1.jpg');
     background-size:   cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
 
-  #group2 {
+  #about {
     z-index: 4; /* slide over group 2 and 4 */
   }
-  #group2 .parallax-layer-base {
+  #about .parallax-layer-base {
     background: #6BBAC5;
   }
 
-  #group3 {
+  #gallery {
     z-index: 2; /* slide under group 3 and 5 */
   }
-  #group3 .parallax-layer-back {
+  #gallery .parallax-layer-back {
     background-image: url('../img/backgrounds/canyonlands.jpg');
     background-size:   cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
 
-  #group4 {
+  #contact {
     z-index: 3; /* slide over group 4 and 6 */
   }
-  #group4 .parallax-layer-base {
+  #contact .parallax-layer-base {
     background: #5D597A;
   }
