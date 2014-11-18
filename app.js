@@ -6,7 +6,8 @@ var express = require('express'),
     methodOverride = require('method-override'),
 	http = require('http'),
 	path = require('path'),
-	app = express();
+	app = express(),
+	photo = require('./server/photo');
 
 // General app configuration
 app.set('port', process.env.PORT || 5001);
@@ -31,6 +32,9 @@ app.route('/')
 	.get(function (req, res) {
 		res.render('../app/index.html');
 	});
+
+app.route('/photos/gallery')
+	.get(photo.getGallery);
 
 // Indicate any other api requests are not implemented
 app.all('/v1/*', function (req, res, next) {
