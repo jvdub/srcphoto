@@ -39,6 +39,15 @@ body {
 .masthead {
 	z-index: 10;
 }
+/*#nav {
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(91,192,222,1) 0%, rgba(125,185,232,0) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(91,192,222,1)), color-stop(100%,rgba(125,185,232,0)));
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(91,192,222,1) 0%,rgba(125,185,232,0) 100%);
+	background: -o-radial-gradient(center, ellipse cover,  rgba(91,192,222,1) 0%,rgba(125,185,232,0) 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(91,192,222,1) 0%,rgba(125,185,232,0) 100%);
+	background: radial-gradient(ellipse at center,  rgba(91,192,222,1) 0%,rgba(125,185,232,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 );
+}*/
 .site-wrapper {
   display: table;
   width: 100%;
@@ -56,7 +65,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 10px;
 }
 
 /*
