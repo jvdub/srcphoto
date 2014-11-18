@@ -20,6 +20,6 @@
 	},
 	"scripts": {
 		"prestart": "npm install",
-		"start": "hotnode app.js"
+		"start": "node app.js"
 	}
 }
