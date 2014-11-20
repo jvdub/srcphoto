@@ -94,10 +94,10 @@
     background: #5BC0DE;
   }
 
-  #gallery {
+  #portfolio {
     z-index: 2; /* slide under group 3 and 5 */
   }
-  #gallery .parallax-layer-back {
+  #portfolio .parallax-layer-deep {
     background-image: url('../img/backgrounds/canyonlands.jpg');
     background-size:   cover;
     background-repeat: no-repeat;

@@ -148,3 +148,13 @@ body {
     width: 700px;
   }
 }
+
+ul.horizontal-list {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+ul.horizontal-list li[class*="span"] {
+    display: inline-block;
+    float: none;
+}
