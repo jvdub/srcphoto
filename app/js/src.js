@@ -44,9 +44,14 @@
 	function setActiveTab() {
 		var urlTab = window.location.hash;
 
-		$('ul.nav > li.active').removeClass('active');
-		$('ul.nav a[href="' + urlTab + '"]').parent().addClass('active');
-		$('.parallax').scrollTop($(urlTab).scrollTop());
+		if (urlTab) {
+			$('ul.nav > li.active').removeClass('active');
+			$('ul.nav a[href="' + urlTab + '"]').parent().addClass('active');
+			$('.parallax').scrollTop($(urlTab).scrollTop());
+		}
+		else {
+			$('ul.nav a[href="#home"]').parent().addClass('active');
+		}
 	}
 
 	function attachHandlers() {
